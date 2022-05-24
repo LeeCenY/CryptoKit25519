@@ -13,7 +13,7 @@ public extension AES.GCM {
     struct Nonce {
         
         /// The length of a AES GCM length in bytes.
-        public static let length = 12
+        public static let length = 16
         
         /// The raw bytes of the nonce
         var bytes: [UInt8]
